@@ -1,0 +1,25 @@
+{
+  "name": "core-js-builder",
+  "description": "core-js builder",
+  "version": "3.4.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zloirock/core-js.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "core-js": "3.4.1",
+    "core-js-compat": "3.4.1",
+    "mkdirp": "^0.5.1",
+    "util.promisify": "^1.0.0",
+    "webpack": "^4.41.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/core-js"
+  },
+  "license": "MIT"
+}
